@@ -18,6 +18,7 @@ body {
     overflow: auto;
     text-align: right;
     border: solid 5px black;
+    border-radius: 20px;
 }
 
 .Content:target {
@@ -33,4 +34,5 @@ img {
     width: 280px;
     height: 230px;
     border: solid 5px black;
+    border-radius: 20px;
 }
