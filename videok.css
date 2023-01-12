@@ -1,0 +1,36 @@
+html, body {
+    overflow: hidden
+}
+
+body {
+    background-color: chocolate;
+}
+
+.Content {
+    position: static;
+    text-align: left;
+    background-color:beige;
+    padding: 30px;
+    visibility: hidden;
+    position: absolute;
+    transform: translateX(80%);
+    top: 0;
+    overflow: auto;
+    text-align: right;
+    border: solid 5px black;
+}
+
+.Content:target {
+    visibility: visible;
+}
+
+a {
+    text-decoration: solid;
+    color: black;
+}
+
+img {
+    width: 280px;
+    height: 230px;
+    border: solid 5px black;
+}
