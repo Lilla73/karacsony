@@ -13,12 +13,16 @@ body {
     padding: 30px;
     visibility: hidden;
     position: absolute;
-    transform: translateX(80%);
+    transform: translateX(63%);
     top: 0;
     overflow: auto;
     text-align: right;
     border: solid 5px black;
     border-radius: 20px;
+}
+
+.Indexes {
+    transform: translateX(2%);
 }
 
 .Content:target {
@@ -32,8 +36,8 @@ a {
 }
 
 img {
-    width: 280px;
-    height: 230px;
+    width: 350px;
+    height: 300px;
     border: solid 5px black;
     border-radius: 20px;
 }
@@ -41,4 +45,10 @@ img {
 iframe {
     border: solid 5px gold;
     border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    color:lightblue;
+    font-size: 45px;
 }
