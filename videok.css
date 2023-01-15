@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-    background-color: chocolate;
+    background-color: darkgoldenrod;
 }
 
 .Content {
@@ -49,6 +49,15 @@ iframe {
 
 h1 {
     text-align: center;
-    color:lightblue;
+    color:black;
     font-size: 45px;
+}
+
+table {
+    width: 1550px;
+}
+
+.menu {
+    color: rgb(102, 0, 0);
+    font-weight: bold;
 }
