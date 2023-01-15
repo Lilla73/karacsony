@@ -14,7 +14,7 @@
         <input type="text" id="LastName" placeholder="Vezetéknév">
         <input type="text" id="FirstName" placeholder="Keresztnév"><br><br>
         <input type="email" id="email" placeholder="Email cím"><br><br>
-        <label for="gender">Neme:</label>
+        <label for="gender">Neme:</label><br><br>
         <select id="gender">
             <option value="Empty">-----</option>
             <option value="Woman">Nő</option>
@@ -22,18 +22,20 @@
             <option value="NotSpecified">Inkább nem adom meg</option>
         </select>
     <h2 for="gift">Válaszd ki, miket szeretnél karácsonyra!</h2>
-        <input type="checkbox" id="gift1" value="Car">
-        <label for="gift1">Autót</label>
-        <input type="checkbox" id="gift2" value="Toy">
-        <label for="gift2">Játékot</label>
-        <input type="checkbox" id="gift3" value="HouseholdAppliance">
-        <label for="gift3">Háztartási eszközt</label>
-        <input type="checkbox" id="gift4" value="Clothes">
-        <label for="gift4">Ruhákat</label>
-        <input type="checkbox" id="gift5" value="ElectronicProduct">
-        <label for="gift5">Elektronikai terméket</label>
-        <input type="checkbox" id="gift6" value="Jewellery">
-        <label for="gift6">Ékszert</label>
+        <div class="AllList">
+            <input type="checkbox" id="gift1" value="Car">
+            <label for="gift1" class="list">Autót</label><br><br>
+            <input type="checkbox" id="gift2" value="Toy">
+            <label for="gift2" class="list">Játékot</label><br><br>
+            <input type="checkbox" id="gift3" value="HouseholdAppliance">
+            <label for="gift3" class="list">Háztartási eszközt</label><br><br>
+            <input type="checkbox" id="gift4" value="Clothes">
+            <label for="gift4" class="list">Ruhákat</label><br><br>
+            <input type="checkbox" id="gift5" value="ElectronicProduct">
+            <label for="gift5" class="list">Elektronikai terméket</label><br><br>
+            <input type="checkbox" id="gift6" value="Jewellery">
+            <label for="gift6" class="list">Ékszert</label>
+        </div>
     </form>
 </body>
 </html>

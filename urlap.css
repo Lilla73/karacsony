@@ -1,9 +1,10 @@
 body{
-    background-color: chocolate;
+    background-color:darkgoldenrod;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
+    text-decoration: underline;
 }
 
 form {
@@ -11,17 +12,37 @@ form {
 }
 
 label {
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.list {
+    position: fixed;
+}
+
+.AllList {
+    transform: translateX(-3%);
 }
 
 input[type="text"], input[type="email"], select {
-    border: 5px solid green;
+    border: 5px solid rgb(102, 0, 0);
     border-radius: 20px;
     width: 250px;
     height: 40px;
     color: black;
     font-size: 18px;
-    background-color:chartreuse;
+    background-color:red;
+    transition: 0.25s;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, select:focus {
+    width: 300px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    accent-color: red;
 }
 
 ::placeholder {
