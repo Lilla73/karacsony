@@ -14,13 +14,11 @@
         <input type="text" id="LastName" placeholder="Vezetéknév">
         <input type="text" id="FirstName" placeholder="Keresztnév"><br><br>
         <input type="email" id="email" placeholder="Email cím"><br><br>
-        <label for="gender">Neme:</label><br><br>
-        <select id="gender">
-            <option value="Empty">-----</option>
-            <option value="Woman">Nő</option>
-            <option value="Man">Férfi</option>
-            <option value="NotSpecified">Inkább nem adom meg</option>
-        </select>
+        <label for="PostalCode">Irányítószám</label>
+        <input type="number" id="PostalCode"><br><br>
+        <input type="text" id="country" placeholder="Ország"><br><br>
+        <label for="address">Cím (Város, Utca, Házszám)</label><br>
+        <input type="text" id="address"><br><br>
     <h2 for="gift">Válaszd ki, miket szeretnél karácsonyra!</h2>
         <div class="AllList">
             <input type="checkbox" id="gift1" value="Car">
@@ -34,7 +32,8 @@
             <input type="checkbox" id="gift5" value="ElectronicProduct">
             <label for="gift5" class="list">Elektronikai terméket</label><br><br>
             <input type="checkbox" id="gift6" value="Jewellery">
-            <label for="gift6" class="list">Ékszert</label>
+            <label for="gift6" class="list">Ékszert</label><br><br>
+            <input type="submit" id="order" value="Rendelés">
         </div>
     </form>
 </body>
