@@ -1,0 +1,16 @@
+.menu {
+    color: rgb(102, 0, 0);
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+table {
+    width: 1550px;
+}
+html, body {
+    overflow: hidden
+}
+
+body {
+    background-color: #ffff66;
+}

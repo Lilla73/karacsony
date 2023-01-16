@@ -3,7 +3,7 @@ html, body {
 }
 
 body{
-    background-color:darkgoldenrod;
+    background-color:#ffff66;
 }
 
 h1, h2 {
@@ -40,13 +40,13 @@ a {
 }
 
 input[type="text"], input[type="email"], input[type="number"], select {
-    border: 5px solid rgb(102, 0, 0);
+    border: 5px solid #000099;
     border-radius: 10px;
     width: 300px;
     height: 25px;
     color: black;
     font-size: 18px;
-    background-color:red;
+    background-color:#6666ff;
     transition: 0.25s;
 }
 
@@ -70,7 +70,7 @@ input[type="number"]:focus {
 input[type="checkbox"]{
     width: 20px;
     height: 20px;
-    accent-color: red;
+    accent-color: #6666ff;
     cursor: pointer;
 }
 
