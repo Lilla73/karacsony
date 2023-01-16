@@ -1,0 +1,17 @@
+body {
+    background-image: url("hatter2.jpg");
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+#szoveg1 {
+    font-size: larger;
+}
+
+#szoveg2 {
+    font-size: larger;
+}

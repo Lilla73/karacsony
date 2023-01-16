@@ -1,3 +1,8 @@
+body {
+ background-image:url("hatter.jpg") ;
+ color: black;
+}
+
 h1 {
     font-weight: bold;
 }
