@@ -4,6 +4,17 @@ body {
     color: white;
 }
 
+table {
+    width: 1550px;
+}
+
+.menu {
+    color: #006600;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
 h1 {
     font-weight: bold;
 }
