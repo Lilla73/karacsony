@@ -22,3 +22,6 @@ h1{
     color: white;
     font-weight: bold;
 }
+#kutya {
+    transform: translateX(63%);
+}
