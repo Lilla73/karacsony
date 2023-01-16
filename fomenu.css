@@ -1,5 +1,5 @@
 .menu {
-    color: rgb(102, 0, 0);
+    color: #006600;
     font-weight: bold;
     font-size: 25px;
     text-decoration: none;
@@ -12,5 +12,13 @@ html, body {
 }
 
 body {
-    background-color: #ffff66;
+    background-image: url(hatter.jpg);
+}
+p {
+    color: white;
+    font-size: larger;
+}
+h1{
+    color: white;
+    font-weight: bold;
 }

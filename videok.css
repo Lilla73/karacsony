@@ -1,15 +1,15 @@
 html, body {
-    overflow: hidden
+    overflow-x: hidden;
 }
 
 body {
-    background-color: #ffff66;
+    background-image: url(hatter.jpg);
 }
 
 .Content {
     position: static;
     text-align: left;
-    background-color:beige;
+    background-color:#ffff99;
     padding: 30px;
     visibility: hidden;
     position: absolute;
@@ -38,7 +38,7 @@ a {
 img {
     width: 350px;
     height: 300px;
-    border: solid 5px black;
+    border: solid 5px #ffff99;
     border-radius: 20px;
 }
 
@@ -57,6 +57,6 @@ table {
 }
 
 .menu {
-    color: rgb(102, 0, 0);
+    color: #006600;
     font-weight: bold;
 }
