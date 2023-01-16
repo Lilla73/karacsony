@@ -3,7 +3,7 @@ html, body {
 }
 
 body{
-    background-color:#ffff66;
+    background-image: url(hatter.jpg);
 }
 
 h1, h2 {
@@ -25,7 +25,7 @@ table {
 }
 
 a {
-    color: rgb(102, 0, 0);
+    color: #006600;
     font-weight: bold;
     font-size: 25px;
     text-decoration: none;
